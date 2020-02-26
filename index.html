@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Murphy’s Bar and Grill</title>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <link rel="stylesheet"
+        href="style.css">
+</head>
+<body>
+<div class="ui borderless topmenu container menu">
+  <div class="ui image item">
+    <a href="style.css"><img src="http://murphyshawaii.com/media/2014/04/murphyshawaii.png"
+                             alt="logo">
+    </a>
+  </div>
+
+  <div class="ui text right item">
+    <a class="blackText">Home</a>
+  </div>
+
+  <div class="ui dropdown item">
+    <div class="text">About Us</div>
+    <div class="ui icon"><i class="ui dropdown icon"></i></div>
+    <div class="menu">
+      <div class="item">Getting Here/Parking</div>
+      <div class="item">Gatering and Private Events</div>
+      <div class="item">Upcoming Events</div>
+    </div>
+  </div>
+
+  <div class="ui text item">
+    <a class="blackText">St. Patrick's Day</a>
+  </div>
+
+  <div class="ui dropdown item">
+    <div class="text">Menus</div>
+    <div class="ui icon"><i class="ui dropdown icon"></i></div>
+    <div class="menu">
+      <div class="item">Weekly Specials</div>
+      <div class="item">Lunch Menu</div>
+      <div class="item">Dinner Menu</div>
+      <div class="item">Desserts</div>
+    </div>
+  </div>
+
+  <div class="ui text item">
+    <a class="blackText">Bar</a>
+  </div>
+
+  <div class="ui dropdown item">
+    <div class="ui icon"><i class="ui rotated search icon"></i></div>
+    <div class="menu">
+      <div class="item">
+        <div class="ui input">
+          <label for="search"></label>
+          <input type="text"
+                 placeholder="Search..."
+                 id="search">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!--middle-->
+<div class="ui middle fluid container">
+  <div class="ui two column grid">
+      <div class="column"><img class="ui left image"
+                               src="http://murphyshawaii.com/media/2014/04/murphyshawaiilogo.png"
+                               alt="left">
+      </div>
+      <div class="column">
+        <p class="content">A traditional downtown saloon and eatery located in the Honolulu
+        Financial
+        District, just
+        one block off the
+        waterfront, Murphy’s has been a haven for mariners, businessmen and locals since 1891.
+        </p>
+      </div>
+    </div>
+
+</div>
+
+<!--footer-->
+<div class="ui footer fluid container">
+  <div class="ui grid">
+    <div class="ui onw wide column"></div>
+    <div class="ui four wide column">
+      <h3>Lunch</h3>
+      <div class="ui divider"></div>
+      <p>Monday – Friday: 11:00am – 2:30pm<br>
+        Saturday – Sunday: Not open for lunch</p>
+    </div>
+    <div class="one wide column"></div>
+    <div class="four wide column">
+      <h3>Bar</h3>
+      <div class="ui divider"></div>
+      <p>Monday- Friday from 11:00am
+        Saturday- Sunday from 4:00pm</p>
+    </div>
+    <div class="one wide column"></div>
+    <div class="four wide column">
+      <h3>Dinner</h3>
+      <div class="ui divider"></div>
+      <p>Monday – Saturday: 5:30pm – 10:00pm
+        Sunday: 5:00pm – 9:00pm</p>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  $(".dropdown")
+      .dropdown();
+</script>
+</body>
+</html>
